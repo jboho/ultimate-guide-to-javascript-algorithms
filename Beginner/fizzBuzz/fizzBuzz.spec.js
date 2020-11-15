@@ -4,13 +4,13 @@ test('fizzBuzz is a function', () => {
   expect(fizzBuzz).toBeDefined();
 });
 
-test('Calling fizzbuzz with `10` prints out 10 statements', () => {
+xtest('Calling fizzbuzz with `10` prints out 10 statements', () => {
   fizzBuzz(10);
 
   expect(console.log.mock.calls.length).toEqual(10);
 });
 
-test('Calling fizzbuzz with 15 prints out the correct values', () => {
+xtest('Calling fizzbuzz with 15 prints out the correct values', () => {
   fizzBuzz(15);
 
   expect(console.log.mock.calls[0][0]).toEqual(1);

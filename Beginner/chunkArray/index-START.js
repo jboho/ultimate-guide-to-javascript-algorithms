@@ -1,12 +1,11 @@
-/* 
- Given two or more arrays, write a function that combines
- their elements into one array without any repetition. 
- E.g  mergeArrays([1,2,3,3,3], [1,4,5,2]) // should return [1,2,3,4,5]
+/*
+  Given an array, write a function that cuts the array into smaller arrays
+  of a given size (size) and returns those array within a single array.
+  e.g. chunkArray([1,2,3,4,5,6,7,8], 2) // should return [[1,2],[3,4],[5,6],[7,8]]
 */
 
 function chunkArray(array, size) {
-    // Code goes here
+  // Code goes here
 }
 
-
-module.exports = chunkArray
+module.exports = chunkArray;
